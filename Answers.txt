@@ -1,0 +1,14 @@
+1.justify-items: center , justify-self:center , justify-content : center ,align-content- center 
+3. наверное если задать определённую ширину 100px то grid-temlate-columns:  1fr 1fr 1fr 1fr 1fr;
+2. fr распределяет ровно место между элементами гибко , без точных расчётов.
+5. grid-template-columns: 100px  30% 2fr;
+grid-template-rows: 200px 100px; 
+4.автозвполнение и автоподбор , используется для создания адаптивных макетов 
+6. justify-contant : space-between ;
+7.просторансивл внутри грид контейнера ,в которое модно поместить другие элементы 
+8. grid-temlate -aria: 
+"head head"
+    "nav  main"
+    "nav  foot";
+
+

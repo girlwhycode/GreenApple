@@ -1,0 +1,128 @@
+.html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #2C2C2B;
+}
+
+.header{
+  border-bottom: 1px solid #a0cfea;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+
+.logo {
+  align-self: start;
+}
+.menu {
+  display: flex;
+  gap: 0 20px;
+}
+.select {
+  align-self: center;
+}
+.contacts {
+  display: flex;
+  position: relative;
+}
+
+.one-1 {
+  background-image: url(../img/IMAGE.png);
+
+}
+.two-2 {
+  background-image: url(../img/IMAGE\ \(1\).png);
+
+}
+.tree-3 {
+  background-image: url(../img/IMAGE\ \(2\).png);
+
+}
+.four-4 {
+  background-image: url(../img/IMAGE\ \(3\).png);
+}
+
+
+.m {
+  display: grid;
+  width: 1220px;
+  height: 800px;
+  grid-template-columns: 2fr 2fr ;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas: 
+                       "one-1 two-2 "
+                       "tree-3 four-4"; 
+ color: #FFFFFF;             
+}
+
+.one-1{
+  grid-area: one-1; 
+  text-align: center;
+  }
+
+.two-2 {
+  grid-area: two-2;
+}
+
+.tree-3 {
+  grid-area: tree-3;
+}
+
+.four-4 {
+  grid-area: four-4;
+}
+.h2 {
+  font-family: Uni Sans-Trial;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+span {
+  align-items: end;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: right;
+}
+
+.footer {
+  border-bottom: 1px solid #a0cfea;
+  width: max-content;
+}
+.nav_under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; 
+}
