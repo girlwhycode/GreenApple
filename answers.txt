@@ -1,0 +1,14 @@
+1. <meta name="viewport" content="width=device-width; initial-scale=1.0">
+Но самый лучший способ ( наверное ) через <metta>
+2. Responsive -один макет для всех устройств .Adaptive-для каждого вида устройств -один макет
+3.адаптивный
+4.min-widht and max-widht
+5. @media (min-width: 600px) and (max-width: 800px) {
+}
+@media (orientation: landscape) {
+#backgraund-image { background: url(image2.png) no repeat; }
+7. img {max-widht: 100%;} 
+8.landscape- альбомная ориентация -горизонтальная,используется для более маштабных .
+portrait-вертикальная,для больее приватных,не маштабных изображений 
+9. Chrome dev tools , http://mattkersley.com/responsive/ 
+10. 

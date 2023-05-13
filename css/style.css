@@ -1,145 +1,128 @@
-html {
+.html {
   box-sizing: border-box;
-  background-color: #F5F5F5;
-} 
+}
 
 *,
 *::before,
-*::after {
+*::after{
   box-sizing: inherit;
 }
 
-.maine-header{
-  display: flex-box;
-  background-color: #e2e2e7;
-  margin: auto;
-  padding-left: 30px;
-  padding-top: 25px;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px;
-  padding: 25px;
-  overflow: hidden;
-  top: 0;
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: solid;
-  color: black;
-  background-color: #e2e2e7;
-}
-.maineflex {
-  display: flex;
-}
-.maine-content {
-  display: flexbox;
-  background-color: #fcfaae;
-  padding-left: 20px;
-}
-.ecler {
-  width: 400px;
-  height: 300px;
-}
-.cake {
-  width: 400px;
-  height: 300px;
-}
-.trubochka {
-  width: 600px;
-  height: 250px;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-around;
-
-}
-.item {
-  justify-content: space-between;
-}
-.items {
-  order: 1;
-}
-
-.right {
-  display: flexbox;
-  border: #095c2e;
-  flex-direction: column;
-  background-color: #92f3bd;
-}
-.lists {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  color: #2c0480;
-}
-.list-side {
-list-style-type: none;
-}
-.aha {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  color: #4f0421;
-}
-.nav_hero {
-  margin: 0;
-  padding: 0;
-  background-color: #50735F;
-  width: 1140px;
-  height: 80px;
-}
-.navigation_up {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: auto;
-  align-items: center;
-}
-.logo {
-  color: #e2e2e7;
-  width: 129px;
-  height: 80px;
-  padding-left: 30px;
-}
-
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px ;
-  
-}
-nav ul li a {
-  color: #FFFFFF;
+a{
+  color: inherit;
   text-decoration: none;
 }
-nav ul li a:hover {
-  color: aqua;
-  transition: .3s;
+li{
+  list-style: none;
 }
-.nav_right {
-  align-items: self-end;
+
+img{
+  max-width: 100%;
 }
-.nav_footer {
-  margin: 0;
-  padding: 0;
-  background-color: #50735F;
-  width: 1140px;
-  height: 375px;
-  font-family: GT Cinetype Trial;
-  font-size: 14px;
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #2C2C2B;
 }
-.navi_footer {
+
+.header{
+  border-bottom: 1px solid #a0cfea;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+
+.logo {
+  align-self: start;
+}
+.menu {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: auto;
-
+  gap: 0 20px;
+}
+.select {
+  align-self: center;
+}
+.contacts {
+  display: flex;
+  position: relative;
 }
 
+.one-1 {
+  background-image: url(../img/IMAGE.png);
+
+}
+.two-2 {
+  background-image: url(../img/IMAGE\ \(1\).png);
+
+}
+.tree-3 {
+  background-image: url(../img/IMAGE\ \(2\).png);
+
+}
+.four-4 {
+  background-image: url(../img/IMAGE\ \(3\).png);
+}
+
+
+.m {
+  display: grid;
+  width: 1220px;
+  height: 800px;
+  grid-template-columns: 2fr 2fr ;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas: 
+                       "one-1 two-2 "
+                       "tree-3 four-4"; 
+ color: #FFFFFF;             
+}
+
+.one-1{
+  grid-area: one-1; 
+  text-align: center;
+  }
+
+.two-2 {
+  grid-area: two-2;
+}
+
+.tree-3 {
+  grid-area: tree-3;
+}
+
+.four-4 {
+  grid-area: four-4;
+}
+.h2 {
+  font-family: Uni Sans-Trial;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+span {
+  align-items: end;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: right;
+}
+
+.footer {
+  border-bottom: 1px solid #a0cfea;
+  width: max-content;
+}
+.nav_under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; 
+}
